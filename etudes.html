@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studies & Projects - Portfolio</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">MyPortfolio</div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="parcours.html">Education</a>
+                    <a href="competences.html">Skills</a>
+                    <a href="stages.html">Experience</a>
+                    <a href="evenements.html">Events</a>
+                    <a href="etudes.html" class="active">Studies</a>
+                    <a href="passions.html">Hobbies</a>
+                    <a href="quizz.html">Quiz</a>
+                    <a href="iit.html">IIT</a>
+                    <a href="contact.html">Contact</a>
+                    
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <h1>Subjects Studied & Projects</h1>
+
+            <h2>Main Subjects</h2>
+            <div class="card-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+                <div class="card" style="text-align: center;">
+                    <h4>Web Programming I</h4>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">HTML5, CSS3, JavaScript</p>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <h4>Object Oriented Programming</h4>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">Java, Design Patterns, UML</p>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <h4>Machine Learning</h4>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">Supervised Learning, Unsupervised Learning, Reinforcement Learning</p>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <h4>Advanced Databases</h4>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">SQL, Optimization, NoSQL</p>
+                </div>
+                 <div class="card" style="text-align: center;">
+                    <h4>Advanced Web Programming</h4>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">React, Node.js, MongoDB, Spring Boot</p>
+                </div>
+            </div>
+
+            <h2 style="margin-top: 50px;">My Projects & Labs</h2>
+            
+            <!-- Brain Tumor Detection -->
+            <div class="card" style="margin-top: 20px; display: flex; gap: 20px; align-items: flex-start;">
+                <div style="flex: 1;">
+                    <h3>Brain Tumor Detection</h3>
+                    <p>Created a Computer Vision model to detect and classify brain tumors in MRI scans using YOLOv10. The model focuses on identifying four classes: Glioma, Meningioma, Pituitary tumor, and No-tumor. This project aims to facilitate early diagnosis and treatment planning by providing accurate and automated tumor detection.</p>
+                    <div style="margin-top: 15px; display: flex; flex-wrap: wrap; gap: 8px;">
+                        <span style="background: rgba(255,255,255,0.1); padding: 5px 10px; border-radius: 5px; font-size: 0.8rem;">YOLOv10</span>
+                        <span style="background: rgba(255,255,255,0.1); padding: 5px 10px; border-radius: 5px; font-size: 0.8rem;">Python</span>
+                        <span style="background: rgba(255,255,255,0.1); padding: 5px 10px; border-radius: 5px; font-size: 0.8rem;">CVAT</span>
+                        <span style="background: rgba(255,255,255,0.1); padding: 5px 10px; border-radius: 5px; font-size: 0.8rem;">Kaggle</span>
+                        <span style="background: rgba(255,255,255,0.1); padding: 5px 10px; border-radius: 5px; font-size: 0.8rem;">CUDA</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Email Spam Classification -->
+             <div class="card" style="margin-top: 20px; display: flex; gap: 20px; align-items: flex-start;">
+                <div style="flex: 1;">
+                    <h3>Email Spam Classification Model</h3>
+                    <p>Implemented a machine learning model to classify emails as spam or non-spam (ham). This project aimed to enhance email security and filter out unwanted emails, ensuring a cleaner and safer inbox for users.</p>
+                     <div style="margin-top: 15px; display: flex; flex-wrap: wrap; gap: 8px;">
+                        <span style="background: rgba(255,255,255,0.1); padding: 5px 10px; border-radius: 5px; font-size: 0.8rem;">Scikit-Learn</span>
+                        <span style="background: rgba(255,255,255,0.1); padding: 5px 10px; border-radius: 5px; font-size: 0.8rem;">Python</span>
+                        <span style="background: rgba(255,255,255,0.1); padding: 5px 10px; border-radius: 5px; font-size: 0.8rem;">Pandas</span>
+                        <span style="background: rgba(255,255,255,0.1); padding: 5px 10px; border-radius: 5px; font-size: 0.8rem;">NumPy</span>
+                        <span style="background: rgba(255,255,255,0.1); padding: 5px 10px; border-radius: 5px; font-size: 0.8rem;">Kaggle</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Conversational ChatBot -->
+             <div class="card" style="margin-top: 20px; display: flex; gap: 20px; align-items: flex-start;">
+                <div style="flex: 1;">
+                    <h3>Conversational ChatBot with Hugging Face</h3>
+                    <p>Developed a ChatBot utilizing the BlenderBot model from Hugging Face's Transformers library. The goal of the project was to create an engaging and intelligent chatbot capable of natural and coherent interactions across various topics.</p>
+                     <div style="margin-top: 15px; display: flex; flex-wrap: wrap; gap: 8px;">
+                        <span style="background: rgba(255,255,255,0.1); padding: 5px 10px; border-radius: 5px; font-size: 0.8rem;">BlenderBot</span>
+                        <span style="background: rgba(255,255,255,0.1); padding: 5px 10px; border-radius: 5px; font-size: 0.8rem;">Hugging Face Transformers</span>
+                        <span style="background: rgba(255,255,255,0.1); padding: 5px 10px; border-radius: 5px; font-size: 0.8rem;">Python</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

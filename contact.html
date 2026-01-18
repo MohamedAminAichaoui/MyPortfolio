@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Portfolio</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">MyPortfolio</div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="parcours.html">Education</a>
+                    <a href="competences.html">Skills</a>
+                    <a href="stages.html">Experience</a>
+                    <a href="evenements.html">Events</a>
+                    <a href="etudes.html">Studies</a>
+                    <a href="passions.html">Hobbies</a>
+                    <a href="quizz.html">Quiz</a>
+                    <a href="iit.html">IIT</a>
+                    <a href="contact.html" class="active">Contact</a>
+                    
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="container" style="max-width: 600px;">
+            <h1>Contact Me</h1>
+            <p style="text-align: center; margin-bottom: 30px;">Do you have a question or a proposal? Feel free to contact me!</p>
+            
+            <div class="card">
+                <form action="mailto:votre.email@exemple.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject of the message" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn" style="width: 100%;">Send</button>
+                    
+                    <p style="text-align: center; margin-top: 15px; font-size: 0.8rem; opacity: 0.7;">
+                        Note: This form will open your default email client.
+                    </p>
+                </form>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <p>Find me also on:</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/mohamed-amine-aichaoui-377543259/" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/MohamedAminAichaoui" title="GitHub"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
